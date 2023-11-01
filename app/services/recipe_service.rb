@@ -10,4 +10,8 @@ class RecipeService
       faraday.params['apiKey'] = Rails.application.credentials.spoonacular[:key]
     end
   end
+
+  def recipes_by_keyword(keyword)
+    get_url("/recipes/complexSearch?query=#{keyword}")
+  end
 end
