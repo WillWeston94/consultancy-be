@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.spoonacular.com/recipes/complexSearch?apiKey=apiKey&query=apple
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 01 Nov 2023 20:03:52 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1299'
+      Connection:
+      - keep-alive
+      Allow-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Authorization, UserId, Hash, Name, Password, Accept, Accept-Language, x-api-key,
+        Content-Language, Content-Type, Cache-Control, Origin, X-Requested-With
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      Allow-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      X-Api-Quota-Request:
+      - '1.1'
+      X-Api-Quota-Used:
+      - '57.12000000000005'
+      X-Api-Quota-Left:
+      - '1442.8799999999999'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YFMhwYTY4dL2VR97li2v4NRmbYxOFal4CwbUTSjAR1sms47CWp02oMbSpXWbktgznm1PdccaMX0P510ueFy3MLDU22nJRNtTC2oGCO0QnTwMN46TS57%2B22ZRiyMWCHzvn8XPfiw%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 81f6be5aec25538a-DEN
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"results":[{"id":632485,"title":"Apple Cake","image":"https://spoonacular.com/recipeImages/632485-312x231.jpg","imageType":"jpg"},{"id":632522,"title":"Apple
+        Crumble","image":"https://spoonacular.com/recipeImages/632522-312x231.jpg","imageType":"jpg"},{"id":632573,"title":"Apple
+        Pie Bars","image":"https://spoonacular.com/recipeImages/632573-312x231.jpg","imageType":"jpg"},{"id":632527,"title":"Apple
+        Cupcakes","image":"https://spoonacular.com/recipeImages/632527-312x231.jpg","imageType":"jpg"},{"id":632543,"title":"Apple
+        Footballs","image":"https://spoonacular.com/recipeImages/632543-312x231.jpg","imageType":"jpg"},{"id":632603,"title":"Apple
+        Tarte Tatin","image":"https://spoonacular.com/recipeImages/632603-312x231.jpg","imageType":"jpg"},{"id":632481,"title":"Apple
+        Brown Betty","image":"https://spoonacular.com/recipeImages/632481-312x231.jpg","imageType":"jpg"},{"id":632575,"title":"Apple
+        Pie Smoothie","image":"https://spoonacular.com/recipeImages/632575-312x231.jpg","imageType":"jpg"},{"id":632598,"title":"Apple
+        spinach soup","image":"https://spoonacular.com/recipeImages/632598-312x231.jpg","imageType":"jpg"},{"id":632577,"title":"Apple
+        Pie Pancakes","image":"https://spoonacular.com/recipeImages/632577-312x231.jpg","imageType":"jpg"}],"offset":0,"number":10,"totalResults":415}'
+  recorded_at: Wed, 01 Nov 2023 20:03:52 GMT
+recorded_with: VCR 6.2.0

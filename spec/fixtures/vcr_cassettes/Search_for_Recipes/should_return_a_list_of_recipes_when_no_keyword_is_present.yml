@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Nov 2023 19:50:21 GMT
+      - Wed, 01 Nov 2023 20:03:53 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -40,19 +40,19 @@ http_interactions:
       X-Api-Quota-Request:
       - '1.1'
       X-Api-Quota-Used:
-      - '47.220000000000034'
+      - '59.32000000000005'
       X-Api-Quota-Left:
-      - '1452.78'
+      - '1440.6799999999998'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MaiAdxvDWWRU7NH5XpJsu6P3rsHC%2FfmKrq%2BtK58ebej891sxoBRvnHINV7FdCwxFRJ6W28GeT%2B6l9WQRvQaxevqw%2BKWykFqQfQdWsfTg%2Bi21E%2Br9LJE%2BL3pnfjtslIgzAgi3FBg%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=te0lrmpvOnkreD%2BJlkQ4TuMX7rX1dx%2BiNRGPt9%2F4Lk%2FkShrB9e8crvcBsT4ULUTk6XP%2Bo1R6qweQogSrREGLrl4t7IKG8AU7dAQlw2fLKxY4wozzUXpRKtfDFKxf5e3mKvaAEK4%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 81f6aa8d783b537f-DEN
+      - 81f6be62b8ec5197-DEN
       Alt-Svc:
       - h3=":443"; ma=86400
     body:
@@ -68,5 +68,5 @@ http_interactions:
         Kidney Bean Jambalaya","image":"https://spoonacular.com/recipeImages/782601-312x231.jpg","imageType":"jpg"},{"id":795751,"title":"Chicken
         Fajita Stuffed Bell Pepper","image":"https://spoonacular.com/recipeImages/795751-312x231.jpg","imageType":"jpg"},{"id":766453,"title":"Hummus
         and Za''atar","image":"https://spoonacular.com/recipeImages/766453-312x231.jpg","imageType":"jpg"}],"offset":0,"number":10,"totalResults":5220}'
-  recorded_at: Wed, 01 Nov 2023 19:50:21 GMT
+  recorded_at: Wed, 01 Nov 2023 20:03:53 GMT
 recorded_with: VCR 6.2.0
