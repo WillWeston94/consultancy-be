@@ -19,8 +19,27 @@ RSpec.describe "Search for Recipes", type: :request do
       expect(recipe).to have_key(:attributes)
       expect(recipe[:attributes][:name]).to be_a(String)
       expect(recipe[:attributes][:img_src]).to be_a(String)
+    end
+  end
 
-      #This test will need to be expanded as we figure out our JSON contract with FE
+  it "should return a list of recipes when no keyword is present", :vcr do
+    ingredient = ""
+
+    get "/api/v1/search?ingredients=#{ingredient}"
+
+    expect(response).to be_successful
+
+    recipes_data = JSON.parse(response.body, symbolize_names: true)
+
+    recipes = recipes_data[:data]
+
+    recipes.each do |recipe|
+      expect(recipe).to have_key(:id)
+      expect(recipe[:id]).to be_a(String)
+
+      expect(recipe).to have_key(:attributes)
+      expect(recipe[:attributes][:name]).to be_a(String)
+      expect(recipe[:attributes][:img_src]).to be_a(String)
     end
   end
 end
