@@ -8,4 +8,7 @@ class RecipeFacade
     data = RecipeService.new.recipes_by_keyword(@keyword)
 
     data[:data].map do |recipe_data|
-      Recipe.new(recipe_data)
+      SearchedRecipe.new(recipe_data)
+    end
+  end
+end
