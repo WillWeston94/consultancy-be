@@ -1,4 +1,4 @@
 class SearchedRecipeSerializer
   include JSONAPI::Serializer
-  attributes :id, :name
+  attributes :name, :img_src
 end

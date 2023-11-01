@@ -1,7 +1,8 @@
 class SearchedRecipe
-  attr_reader :id, :name
+  attr_reader :id, :name, :img_src
   def initialize(data)
-    @id = data[:attributes][:id]
-    @name = data[:attributes][:name]
+    @id = data[:id]
+    @name = data[:title]
+    @img_src = data[:image]
   end
 end

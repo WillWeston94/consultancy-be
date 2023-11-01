@@ -18,6 +18,7 @@ RSpec.describe "Search for Recipes", type: :request do
 
       expect(recipe).to have_key(:attributes)
       expect(recipe[:attributes][:name]).to be_a(String)
+      expect(recipe[:attributes][:img_src]).to be_a(String)
 
       #This test will need to be expanded as we figure out our JSON contract with FE
     end
