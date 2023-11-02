@@ -30,6 +30,4 @@
 /coverage
 
 # Ignore VCR cassettes
-/spec/fixtures/vcr_cassettes
-
-#Test
+/spec/fixtures/vcr_cassettes/
