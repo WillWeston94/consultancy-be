@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 02 Nov 2023 14:09:50 GMT
+      - Thu, 02 Nov 2023 14:13:00 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -40,19 +40,19 @@ http_interactions:
       X-Api-Quota-Request:
       - '1.1'
       X-Api-Quota-Used:
-      - '23.770000000000007'
+      - '29.180000000000014'
       X-Api-Quota-Left:
-      - '1476.23'
+      - '1470.82'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Y5RCMR9tmRjE9UoIYqgyXbaxheyciVxkKZVqQWpUPHeFyppq7dF7moD5pT3BJikf4TNX3ngvTTTutC8Y5kMvaOokyAx%2B0YYSR8O1mbNGtfy8%2Ff8lfG2IdKqXBee9XqdvTpA6wac%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CmNls6W6E1z9ABlxQuVMiPSJiRCizcObg3sykGk4JRNnYSRi2dY%2FwyNJx%2BKpErYMYqVkRcCEW1PxQxU2G46CVGekbLqfaSHAwAZiaDjCJPQmuiQftGwKx74Qi1Mh9Ek3g%2FhOMqA%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 81fcf52138a51f38-DEN
+      - 81fcf9c23dbb1f44-DEN
       Alt-Svc:
       - h3=":443"; ma=86400
     body:
@@ -68,5 +68,212 @@ http_interactions:
         Kidney Bean Jambalaya","image":"https://spoonacular.com/recipeImages/782601-312x231.jpg","imageType":"jpg"},{"id":795751,"title":"Chicken
         Fajita Stuffed Bell Pepper","image":"https://spoonacular.com/recipeImages/795751-312x231.jpg","imageType":"jpg"},{"id":766453,"title":"Hummus
         and Za''atar","image":"https://spoonacular.com/recipeImages/766453-312x231.jpg","imageType":"jpg"}],"offset":0,"number":10,"totalResults":5220}'
-  recorded_at: Thu, 02 Nov 2023 14:09:50 GMT
+  recorded_at: Thu, 02 Nov 2023 14:13:00 GMT
+- request:
+    method: get
+    uri: https://api.spoonacular.com/recipes/complexSearch?apiKey=apiKey&query=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 02 Nov 2023 14:19:01 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1472'
+      Connection:
+      - keep-alive
+      Allow-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Authorization, UserId, Hash, Name, Password, Accept, Accept-Language, x-api-key,
+        Content-Language, Content-Type, Cache-Control, Origin, X-Requested-With
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      Allow-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      X-Api-Quota-Request:
+      - '1.1'
+      X-Api-Quota-Used:
+      - '34.59000000000002'
+      X-Api-Quota-Left:
+      - '1465.41'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HMGuyJ%2FqrqdsrlsTDFvCrnPRaNyuHX7SKsFnDdYuVzwG%2B%2FGLKex9yMDYzgS5uYpT%2BwChGdjefOxkQZ3tmUZJXzWpICGA7%2BmLR2vvUygmdRvHlEPOYY6pc%2FCm%2FlCHWy15oFiHHJc%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 81fd0296fdf91f26-DEN
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"results":[{"id":782585,"title":"Cannellini Bean and Asparagus Salad
+        with Mushrooms","image":"https://spoonacular.com/recipeImages/782585-312x231.jpg","imageType":"jpg"},{"id":716426,"title":"Cauliflower,
+        Brown Rice, and Vegetable Fried Rice","image":"https://spoonacular.com/recipeImages/716426-312x231.jpg","imageType":"jpg"},{"id":715497,"title":"Berry
+        Banana Breakfast Smoothie","image":"https://spoonacular.com/recipeImages/715497-312x231.jpg","imageType":"jpg"},{"id":715415,"title":"Red
+        Lentil Soup with Chicken and Turnips","image":"https://spoonacular.com/recipeImages/715415-312x231.jpg","imageType":"jpg"},{"id":716406,"title":"Asparagus
+        and Pea Soup: Real Convenience Food","image":"https://spoonacular.com/recipeImages/716406-312x231.jpg","imageType":"jpg"},{"id":644387,"title":"Garlicky
+        Kale","image":"https://spoonacular.com/recipeImages/644387-312x231.jpg","imageType":"jpg"},{"id":715446,"title":"Slow
+        Cooker Beef Stew","image":"https://spoonacular.com/recipeImages/715446-312x231.jpg","imageType":"jpg"},{"id":782601,"title":"Red
+        Kidney Bean Jambalaya","image":"https://spoonacular.com/recipeImages/782601-312x231.jpg","imageType":"jpg"},{"id":795751,"title":"Chicken
+        Fajita Stuffed Bell Pepper","image":"https://spoonacular.com/recipeImages/795751-312x231.jpg","imageType":"jpg"},{"id":766453,"title":"Hummus
+        and Za''atar","image":"https://spoonacular.com/recipeImages/766453-312x231.jpg","imageType":"jpg"}],"offset":0,"number":10,"totalResults":5220}'
+  recorded_at: Thu, 02 Nov 2023 14:19:01 GMT
+- request:
+    method: get
+    uri: https://api.spoonacular.com/recipes/complexSearch?apiKey=apiKey&query=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 02 Nov 2023 14:19:07 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1472'
+      Connection:
+      - keep-alive
+      Allow-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Authorization, UserId, Hash, Name, Password, Accept, Accept-Language, x-api-key,
+        Content-Language, Content-Type, Cache-Control, Origin, X-Requested-With
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      Allow-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      X-Api-Quota-Request:
+      - '1.1'
+      X-Api-Quota-Used:
+      - '40.00000000000002'
+      X-Api-Quota-Left:
+      - '1460.0'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=02bU7DmQc5janTTEnnYU8zPy%2F57XYgW4QKHGan9zJRHK8upT6UHF%2FElAz1jTo3s7ofKbmsesm83JQ%2FHMu14JixWG8FDnK2UwcoX2TY1%2Fm077rgpCNqPuCvFB%2BGy3K040B67jHM8%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 81fd02b94c0f5342-DEN
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"results":[{"id":782585,"title":"Cannellini Bean and Asparagus Salad
+        with Mushrooms","image":"https://spoonacular.com/recipeImages/782585-312x231.jpg","imageType":"jpg"},{"id":716426,"title":"Cauliflower,
+        Brown Rice, and Vegetable Fried Rice","image":"https://spoonacular.com/recipeImages/716426-312x231.jpg","imageType":"jpg"},{"id":715497,"title":"Berry
+        Banana Breakfast Smoothie","image":"https://spoonacular.com/recipeImages/715497-312x231.jpg","imageType":"jpg"},{"id":715415,"title":"Red
+        Lentil Soup with Chicken and Turnips","image":"https://spoonacular.com/recipeImages/715415-312x231.jpg","imageType":"jpg"},{"id":716406,"title":"Asparagus
+        and Pea Soup: Real Convenience Food","image":"https://spoonacular.com/recipeImages/716406-312x231.jpg","imageType":"jpg"},{"id":644387,"title":"Garlicky
+        Kale","image":"https://spoonacular.com/recipeImages/644387-312x231.jpg","imageType":"jpg"},{"id":715446,"title":"Slow
+        Cooker Beef Stew","image":"https://spoonacular.com/recipeImages/715446-312x231.jpg","imageType":"jpg"},{"id":782601,"title":"Red
+        Kidney Bean Jambalaya","image":"https://spoonacular.com/recipeImages/782601-312x231.jpg","imageType":"jpg"},{"id":795751,"title":"Chicken
+        Fajita Stuffed Bell Pepper","image":"https://spoonacular.com/recipeImages/795751-312x231.jpg","imageType":"jpg"},{"id":766453,"title":"Hummus
+        and Za''atar","image":"https://spoonacular.com/recipeImages/766453-312x231.jpg","imageType":"jpg"}],"offset":0,"number":10,"totalResults":5220}'
+  recorded_at: Thu, 02 Nov 2023 14:19:07 GMT
+- request:
+    method: get
+    uri: https://api.spoonacular.com/recipes/complexSearch?apiKey=apiKey&query=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 02 Nov 2023 14:19:21 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1472'
+      Connection:
+      - keep-alive
+      Allow-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Authorization, UserId, Hash, Name, Password, Accept, Accept-Language, x-api-key,
+        Content-Language, Content-Type, Cache-Control, Origin, X-Requested-With
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      Allow-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      X-Api-Quota-Request:
+      - '1.1'
+      X-Api-Quota-Used:
+      - '45.410000000000025'
+      X-Api-Quota-Left:
+      - '1454.59'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kpyl00vr3KXRYjul8HD46Q0OSSYSDnMLSm91ytVOEccBepWja%2FNaFeS8BRB%2BJTjtDvWpKFT%2BLqHWqM4%2BIETXybAAPy8luQ6OK4IKf%2FG5L6J%2BMcIiU%2FpZ45ml%2B5CxfEK0jSvowd4%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 81fd031368f6538d-DEN
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"results":[{"id":782585,"title":"Cannellini Bean and Asparagus Salad
+        with Mushrooms","image":"https://spoonacular.com/recipeImages/782585-312x231.jpg","imageType":"jpg"},{"id":716426,"title":"Cauliflower,
+        Brown Rice, and Vegetable Fried Rice","image":"https://spoonacular.com/recipeImages/716426-312x231.jpg","imageType":"jpg"},{"id":715497,"title":"Berry
+        Banana Breakfast Smoothie","image":"https://spoonacular.com/recipeImages/715497-312x231.jpg","imageType":"jpg"},{"id":715415,"title":"Red
+        Lentil Soup with Chicken and Turnips","image":"https://spoonacular.com/recipeImages/715415-312x231.jpg","imageType":"jpg"},{"id":716406,"title":"Asparagus
+        and Pea Soup: Real Convenience Food","image":"https://spoonacular.com/recipeImages/716406-312x231.jpg","imageType":"jpg"},{"id":644387,"title":"Garlicky
+        Kale","image":"https://spoonacular.com/recipeImages/644387-312x231.jpg","imageType":"jpg"},{"id":715446,"title":"Slow
+        Cooker Beef Stew","image":"https://spoonacular.com/recipeImages/715446-312x231.jpg","imageType":"jpg"},{"id":782601,"title":"Red
+        Kidney Bean Jambalaya","image":"https://spoonacular.com/recipeImages/782601-312x231.jpg","imageType":"jpg"},{"id":795751,"title":"Chicken
+        Fajita Stuffed Bell Pepper","image":"https://spoonacular.com/recipeImages/795751-312x231.jpg","imageType":"jpg"},{"id":766453,"title":"Hummus
+        and Za''atar","image":"https://spoonacular.com/recipeImages/766453-312x231.jpg","imageType":"jpg"}],"offset":0,"number":10,"totalResults":5220}'
+  recorded_at: Thu, 02 Nov 2023 14:19:22 GMT
 recorded_with: VCR 6.2.0
