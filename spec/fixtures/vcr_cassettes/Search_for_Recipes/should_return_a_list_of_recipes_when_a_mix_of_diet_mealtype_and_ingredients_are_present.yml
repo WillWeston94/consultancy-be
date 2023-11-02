@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.spoonacular.com/recipes/complexSearch?apiKey=apiKey&query=breakfast%20low%20fodmap%20spinach
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 02 Nov 2023 14:09:51 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '203'
+      Connection:
+      - keep-alive
+      Allow-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Authorization, UserId, Hash, Name, Password, Accept, Accept-Language, x-api-key,
+        Content-Language, Content-Type, Cache-Control, Origin, X-Requested-With
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      Allow-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      X-Api-Quota-Request:
+      - '1.01'
+      X-Api-Quota-Used:
+      - '24.78000000000001'
+      X-Api-Quota-Left:
+      - '1475.22'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7JYXyKkAP50iVBtcwNn1F1m68yAPbzI8nSYnxIhPlPDE0VC7oiu4%2Bddh7Maw%2B9LvjgPD3IbvpoSyX4f9YcJ5h8VzebhlEXf8xLhbVPExn764tTX%2FZLKpLumhHalLFvARxWNToec%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 81fcf524c86f1f2c-DEN
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"results":[{"id":661251,"title":"Spinach Almond Amaranth Breakfast
+        Muffins","image":"https://spoonacular.com/recipeImages/661251-312x231.jpg","imageType":"jpg"}],"offset":0,"number":10,"totalResults":1}'
+  recorded_at: Thu, 02 Nov 2023 14:09:51 GMT
+recorded_with: VCR 6.2.0

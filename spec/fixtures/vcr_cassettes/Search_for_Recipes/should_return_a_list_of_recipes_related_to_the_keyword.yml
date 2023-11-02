@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Nov 2023 20:14:07 GMT
+      - Thu, 02 Nov 2023 14:09:50 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -40,19 +40,19 @@ http_interactions:
       X-Api-Quota-Request:
       - '1.1'
       X-Api-Quota-Used:
-      - '67.02000000000004'
+      - '22.670000000000005'
       X-Api-Quota-Left:
-      - '1432.98'
+      - '1477.33'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bpIxOJrC9VHXYwof3bWxlyIjBOJPfCIoEEg4Jhgt6ABCkg1lSkuD%2BvVM6P7RR395ZyM7BM8A4myLyEmLpKNcCRwkJo%2BTukB3wzLxgu1BCT%2B55qBshbNmNXTI%2BxgjronUuZAGuyc%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=332S4Jtdm5UT6mvNvwplM2q3miaHQgHVM99HlymgulqFXAx37CJp1kFk5JtL4ObO09sjlwDWopxNJlcbRifwPmF2Cb4H7FbcwFf%2BVgcLs%2Fhfol8eZ2lRXyhjtmXvdQxoi5mQoao%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 81f6cd60285351e5-DEN
+      - 81fcf51db89d5387-DEN
       Alt-Svc:
       - h3=":443"; ma=86400
     body:
@@ -67,5 +67,5 @@ http_interactions:
         With Chickpeas and Kale","image":"https://spoonacular.com/recipeImages/654905-312x231.jpg","imageType":"jpg"},{"id":654901,"title":"Pasta
         With Chicken and Broccoli","image":"https://spoonacular.com/recipeImages/654901-312x231.jpg","imageType":"jpg"},{"id":654913,"title":"Pasta
         With Chicken and Mushrooms","image":"https://spoonacular.com/recipeImages/654913-312x231.jpg","imageType":"jpg"}],"offset":0,"number":10,"totalResults":261}'
-  recorded_at: Wed, 01 Nov 2023 20:14:07 GMT
+  recorded_at: Thu, 02 Nov 2023 14:09:50 GMT
 recorded_with: VCR 6.2.0

@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 01 Nov 2023 20:14:07 GMT
+      - Thu, 02 Nov 2023 14:09:49 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -40,19 +40,19 @@ http_interactions:
       X-Api-Quota-Request:
       - '1.1'
       X-Api-Quota-Used:
-      - '65.92000000000004'
+      - '21.570000000000004'
       X-Api-Quota-Left:
-      - '1434.08'
+      - '1478.43'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VVYmsWhdgfk7smE91Wi6%2BQn%2F9IAriU2KjRNaj%2BmjIQ34g8q8WDgQE1Utr4aW98i%2BIn%2FJQOmqnPomfME1nIM%2Fviabz8iK9SXkev4iITX7xKt2CucWKp79LyFXkcbgiilc0G%2FDoqQ%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4wZPUO42RhvLZrb5hIebrbd1I3haWl3gI4AFdypaH0dc%2FrpR12Meo92P8LaLBB0w%2FAzJ0b1nLz9Eu6dT23dFTKbPbYUsaT1%2Bq2XrX%2B0nbo36rrrSoYZeS%2FEo%2B4dMxr5Y2cIVDmQ%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 81f6cd5c1e0d51fa-DEN
+      - 81fcf5199ee351f7-DEN
       Alt-Svc:
       - h3=":443"; ma=86400
     body:
@@ -67,5 +67,5 @@ http_interactions:
         Pie Smoothie","image":"https://spoonacular.com/recipeImages/632575-312x231.jpg","imageType":"jpg"},{"id":632598,"title":"Apple
         spinach soup","image":"https://spoonacular.com/recipeImages/632598-312x231.jpg","imageType":"jpg"},{"id":632577,"title":"Apple
         Pie Pancakes","image":"https://spoonacular.com/recipeImages/632577-312x231.jpg","imageType":"jpg"}],"offset":0,"number":10,"totalResults":415}'
-  recorded_at: Wed, 01 Nov 2023 20:14:07 GMT
+  recorded_at: Thu, 02 Nov 2023 14:09:49 GMT
 recorded_with: VCR 6.2.0
