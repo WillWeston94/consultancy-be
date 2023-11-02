@@ -6,4 +6,8 @@ class Api::V1::SearchController < ApplicationController
     render json: SearchedRecipeSerializer.new(selected_recipes)
     #We'll want to enter a begin and rescue clause later
   end
+
+  def show
+    recipe_details = RecipeFacade.new.get_recipe_details(params[:id])
+  end
 end
