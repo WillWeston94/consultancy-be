@@ -480,4 +480,64 @@ http_interactions:
       string: '{"results":[{"id":661251,"title":"Spinach Almond Amaranth Breakfast
         Muffins","image":"https://spoonacular.com/recipeImages/661251-312x231.jpg","imageType":"jpg"}],"offset":0,"number":10,"totalResults":1}'
   recorded_at: Thu, 02 Nov 2023 14:24:01 GMT
+- request:
+    method: get
+    uri: https://api.spoonacular.com/recipes/complexSearch?apiKey=apiKey&query=breakfast%20low%20fodmap%20spinach
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 02 Nov 2023 14:25:08 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '203'
+      Connection:
+      - keep-alive
+      Allow-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Authorization, UserId, Hash, Name, Password, Accept, Accept-Language, x-api-key,
+        Content-Language, Content-Type, Cache-Control, Origin, X-Requested-With
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      Allow-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      X-Api-Quota-Request:
+      - '1.01'
+      X-Api-Quota-Used:
+      - '73.47000000000001'
+      X-Api-Quota-Left:
+      - '1426.53'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gEm%2B3b%2BP6BhOaWZ1rbPzf7rT1cxf0S6fDb1Bps97a36VQg%2F5ixVUWThYf1K3DpudvqD3M2858jchWXSvSsESrgNN8JhW2Z0mMDm6nKzcdwplnrq9Ll%2BFdJDw82ddtZSHUWJJ%2FYE%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 81fd0b87e8831f2d-DEN
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"results":[{"id":661251,"title":"Spinach Almond Amaranth Breakfast
+        Muffins","image":"https://spoonacular.com/recipeImages/661251-312x231.jpg","imageType":"jpg"}],"offset":0,"number":10,"totalResults":1}'
+  recorded_at: Thu, 02 Nov 2023 14:25:08 GMT
 recorded_with: VCR 6.2.0
