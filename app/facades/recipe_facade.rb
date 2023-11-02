@@ -11,4 +11,12 @@ class RecipeFacade
       SearchedRecipe.new(recipe_data)
     end
   end
+
+  def get_recipe_details(recipe)
+    data = RecipeService.new.recipes_by_id(recipe)
+    data[:results].map do |recipe_data|
+      Recipe.new(recipe_data)
+    end
+
+  end
 end

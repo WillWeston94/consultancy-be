@@ -14,4 +14,8 @@ class RecipeService
   def recipes_by_keyword(keyword)
     get_url("/recipes/complexSearch?query=#{keyword}")
   end
+
+  def recipes_by_id(recipe_id)
+    get_url("/recipes/#{recipe_id}/information?includeNutrition=true")
+  end
 end
