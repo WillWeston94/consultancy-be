@@ -52,6 +52,8 @@ RSpec.describe "Search for Recipes", type: :request do
 
     recipes_data = JSON.parse(response.body, symbolize_names: true)
 
+    #Fake comment
+
     recipes = recipes_data[:data]
 
     recipes.each do |recipe|
