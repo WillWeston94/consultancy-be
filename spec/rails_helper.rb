@@ -78,4 +78,5 @@ VCR.configure do |config|
   config.hook_into :webmock
   config.filter_sensitive_data('apiKey') { Rails.application.credentials.spoonacular[:key] }
   config.configure_rspec_metadata!
+  config.default_cassette_options = { record: :new_episodes }
 end
