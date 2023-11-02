@@ -240,4 +240,124 @@ http_interactions:
       string: !binary |-
         eyJyZXN1bHRzIjpbeyJpZCI6NjU2OTcxLCJ0aXRsZSI6IlBvdGF0byBMZWVrIFNvdXAiLCJpbWFnZSI6Imh0dHBzOi8vc3Bvb25hY3VsYXIuY29tL3JlY2lwZUltYWdlcy82NTY5NzEtMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifSx7ImlkIjo2NTcwMTEsInRpdGxlIjoiUG90YXRvLUNoZWVzZSBQaWUiLCJpbWFnZSI6Imh0dHBzOi8vc3Bvb25hY3VsYXIuY29tL3JlY2lwZUltYWdlcy82NTcwMTEtMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifSx7ImlkIjo2MzY3MjksInRpdGxlIjoiUG90YXRvIENoaXAgQnJvd25pZXMiLCJpbWFnZSI6Imh0dHBzOi8vc3Bvb25hY3VsYXIuY29tL3JlY2lwZUltYWdlcy82MzY3MjktMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifSx7ImlkIjo2NTY5MjEsInRpdGxlIjoiUG90YXRvIGFuZCBMZWVrIEdyYXRpbiIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzY1NjkyMS0zMTJ4MjMxLmpwZyIsImltYWdlVHlwZSI6ImpwZyJ9LHsiaWQiOjY1Njk2MiwidGl0bGUiOiJQb3RhdG8gR3JhdGluIHdpdGggR29hdCBDaGVlc2UiLCJpbWFnZSI6Imh0dHBzOi8vc3Bvb25hY3VsYXIuY29tL3JlY2lwZUltYWdlcy82NTY5NjItMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifSx7ImlkIjo2NTY5MjUsInRpdGxlIjoiUG90YXRvIGFuZCBTY2FsbGlvbiBCcmVhZCBSb2xscyIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzY1NjkyNS0zMTJ4MjMxLmpwZyIsImltYWdlVHlwZSI6ImpwZyJ9LHsiaWQiOjY1NjkxNSwidGl0bGUiOiJQb3RhdG8gYW5kIEdyZWVuIEJlYW4gU2lkZSBTYWxhZCIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzY1NjkxNS0zMTJ4MjMxLmpwZyIsImltYWdlVHlwZSI6ImpwZyJ9LHsiaWQiOjY1NzAwMCwidGl0bGUiOiJQb3RhdG8gU291cCBXaXRoIFBlcHBlcnMgYW5kIE9saXZlcyIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzY1NzAwMC0zMTJ4MjMxLmpwZyIsImltYWdlVHlwZSI6ImpwZyJ9LHsiaWQiOjEwOTYzMjMsInRpdGxlIjoiUG90YXRvICYgTGVlayBTb3VwIHdpdGggUm9hc3RlZCBCZWV0cyIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzEwOTYzMjMtMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifSx7ImlkIjoxNjk3NTQ5LCJ0aXRsZSI6IlBvdGF0byBhbmQgTGVlayBTb3VwIOKAkyBQb3RhZ2UgUGFybWVudGllciIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzE2OTc1NDktMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifV0sIm9mZnNldCI6MCwibnVtYmVyIjoxMCwidG90YWxSZXN1bHRzIjozMzB9
   recorded_at: Thu, 02 Nov 2023 14:19:23 GMT
+- request:
+    method: get
+    uri: https://api.spoonacular.com/recipes/complexSearch?apiKey=apiKey&query=potato
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 02 Nov 2023 14:20:11 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1431'
+      Connection:
+      - keep-alive
+      Allow-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Authorization, UserId, Hash, Name, Password, Accept, Accept-Language, x-api-key,
+        Content-Language, Content-Type, Cache-Control, Origin, X-Requested-With
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      Allow-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      X-Api-Quota-Request:
+      - '1.1'
+      X-Api-Quota-Used:
+      - '52.93000000000003'
+      X-Api-Quota-Left:
+      - '1447.07'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mg2P%2BFXDLGiXMjrhrVXlzn81K73zl2HwGnJoFUtMu791TiU40hGN25F09NF6ngwniX%2FrsUpYRHq8as6dCq0MdqtJnO2jjAums93eNEc4YJiVYEd54jPVuRvBUQhYGfeNq5Khw1A%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 81fd0446e9a2533f-DEN
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyZXN1bHRzIjpbeyJpZCI6NjU2OTcxLCJ0aXRsZSI6IlBvdGF0byBMZWVrIFNvdXAiLCJpbWFnZSI6Imh0dHBzOi8vc3Bvb25hY3VsYXIuY29tL3JlY2lwZUltYWdlcy82NTY5NzEtMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifSx7ImlkIjo2NTcwMTEsInRpdGxlIjoiUG90YXRvLUNoZWVzZSBQaWUiLCJpbWFnZSI6Imh0dHBzOi8vc3Bvb25hY3VsYXIuY29tL3JlY2lwZUltYWdlcy82NTcwMTEtMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifSx7ImlkIjo2MzY3MjksInRpdGxlIjoiUG90YXRvIENoaXAgQnJvd25pZXMiLCJpbWFnZSI6Imh0dHBzOi8vc3Bvb25hY3VsYXIuY29tL3JlY2lwZUltYWdlcy82MzY3MjktMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifSx7ImlkIjo2NTY5MjEsInRpdGxlIjoiUG90YXRvIGFuZCBMZWVrIEdyYXRpbiIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzY1NjkyMS0zMTJ4MjMxLmpwZyIsImltYWdlVHlwZSI6ImpwZyJ9LHsiaWQiOjY1Njk2MiwidGl0bGUiOiJQb3RhdG8gR3JhdGluIHdpdGggR29hdCBDaGVlc2UiLCJpbWFnZSI6Imh0dHBzOi8vc3Bvb25hY3VsYXIuY29tL3JlY2lwZUltYWdlcy82NTY5NjItMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifSx7ImlkIjo2NTY5MjUsInRpdGxlIjoiUG90YXRvIGFuZCBTY2FsbGlvbiBCcmVhZCBSb2xscyIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzY1NjkyNS0zMTJ4MjMxLmpwZyIsImltYWdlVHlwZSI6ImpwZyJ9LHsiaWQiOjY1NjkxNSwidGl0bGUiOiJQb3RhdG8gYW5kIEdyZWVuIEJlYW4gU2lkZSBTYWxhZCIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzY1NjkxNS0zMTJ4MjMxLmpwZyIsImltYWdlVHlwZSI6ImpwZyJ9LHsiaWQiOjY1NzAwMCwidGl0bGUiOiJQb3RhdG8gU291cCBXaXRoIFBlcHBlcnMgYW5kIE9saXZlcyIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzY1NzAwMC0zMTJ4MjMxLmpwZyIsImltYWdlVHlwZSI6ImpwZyJ9LHsiaWQiOjEwOTYzMjMsInRpdGxlIjoiUG90YXRvICYgTGVlayBTb3VwIHdpdGggUm9hc3RlZCBCZWV0cyIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzEwOTYzMjMtMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifSx7ImlkIjoxNjk3NTQ5LCJ0aXRsZSI6IlBvdGF0byBhbmQgTGVlayBTb3VwIOKAkyBQb3RhZ2UgUGFybWVudGllciIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzE2OTc1NDktMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifV0sIm9mZnNldCI6MCwibnVtYmVyIjoxMCwidG90YWxSZXN1bHRzIjozMzB9
+  recorded_at: Thu, 02 Nov 2023 14:20:11 GMT
+- request:
+    method: get
+    uri: https://api.spoonacular.com/recipes/complexSearch?apiKey=apiKey&query=potato
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 02 Nov 2023 14:20:15 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1431'
+      Connection:
+      - keep-alive
+      Allow-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Authorization, UserId, Hash, Name, Password, Accept, Accept-Language, x-api-key,
+        Content-Language, Content-Type, Cache-Control, Origin, X-Requested-With
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      Allow-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      X-Api-Quota-Request:
+      - '1.1'
+      X-Api-Quota-Used:
+      - '58.34000000000003'
+      X-Api-Quota-Left:
+      - '1441.6599999999999'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kM3Te1Yd6ylv4LlpTqKohb8s5fRzZx%2F%2BJ%2BzW4k9nXg5RcGFmQ21SYUxF6Ssl7fWjHyqshQp%2FGNdE1KJjsZut2ZUXfbzbjYKVqPhqoNRsuZNqg0lIbedZsDMQ8L6ZKerGVApsVag%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 81fd0465dfdc5211-DEN
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyZXN1bHRzIjpbeyJpZCI6NjU2OTcxLCJ0aXRsZSI6IlBvdGF0byBMZWVrIFNvdXAiLCJpbWFnZSI6Imh0dHBzOi8vc3Bvb25hY3VsYXIuY29tL3JlY2lwZUltYWdlcy82NTY5NzEtMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifSx7ImlkIjo2NTcwMTEsInRpdGxlIjoiUG90YXRvLUNoZWVzZSBQaWUiLCJpbWFnZSI6Imh0dHBzOi8vc3Bvb25hY3VsYXIuY29tL3JlY2lwZUltYWdlcy82NTcwMTEtMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifSx7ImlkIjo2MzY3MjksInRpdGxlIjoiUG90YXRvIENoaXAgQnJvd25pZXMiLCJpbWFnZSI6Imh0dHBzOi8vc3Bvb25hY3VsYXIuY29tL3JlY2lwZUltYWdlcy82MzY3MjktMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifSx7ImlkIjo2NTY5MjEsInRpdGxlIjoiUG90YXRvIGFuZCBMZWVrIEdyYXRpbiIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzY1NjkyMS0zMTJ4MjMxLmpwZyIsImltYWdlVHlwZSI6ImpwZyJ9LHsiaWQiOjY1Njk2MiwidGl0bGUiOiJQb3RhdG8gR3JhdGluIHdpdGggR29hdCBDaGVlc2UiLCJpbWFnZSI6Imh0dHBzOi8vc3Bvb25hY3VsYXIuY29tL3JlY2lwZUltYWdlcy82NTY5NjItMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifSx7ImlkIjo2NTY5MjUsInRpdGxlIjoiUG90YXRvIGFuZCBTY2FsbGlvbiBCcmVhZCBSb2xscyIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzY1NjkyNS0zMTJ4MjMxLmpwZyIsImltYWdlVHlwZSI6ImpwZyJ9LHsiaWQiOjY1NjkxNSwidGl0bGUiOiJQb3RhdG8gYW5kIEdyZWVuIEJlYW4gU2lkZSBTYWxhZCIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzY1NjkxNS0zMTJ4MjMxLmpwZyIsImltYWdlVHlwZSI6ImpwZyJ9LHsiaWQiOjY1NzAwMCwidGl0bGUiOiJQb3RhdG8gU291cCBXaXRoIFBlcHBlcnMgYW5kIE9saXZlcyIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzY1NzAwMC0zMTJ4MjMxLmpwZyIsImltYWdlVHlwZSI6ImpwZyJ9LHsiaWQiOjEwOTYzMjMsInRpdGxlIjoiUG90YXRvICYgTGVlayBTb3VwIHdpdGggUm9hc3RlZCBCZWV0cyIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzEwOTYzMjMtMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifSx7ImlkIjoxNjk3NTQ5LCJ0aXRsZSI6IlBvdGF0byBhbmQgTGVlayBTb3VwIOKAkyBQb3RhZ2UgUGFybWVudGllciIsImltYWdlIjoiaHR0cHM6Ly9zcG9vbmFjdWxhci5jb20vcmVjaXBlSW1hZ2VzLzE2OTc1NDktMzEyeDIzMS5qcGciLCJpbWFnZVR5cGUiOiJqcGcifV0sIm9mZnNldCI6MCwibnVtYmVyIjoxMCwidG90YWxSZXN1bHRzIjozMzB9
+  recorded_at: Thu, 02 Nov 2023 14:20:15 GMT
 recorded_with: VCR 6.2.0

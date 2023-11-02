@@ -272,4 +272,140 @@ http_interactions:
         With Chicken and Broccoli","image":"https://spoonacular.com/recipeImages/654901-312x231.jpg","imageType":"jpg"},{"id":654913,"title":"Pasta
         With Chicken and Mushrooms","image":"https://spoonacular.com/recipeImages/654913-312x231.jpg","imageType":"jpg"}],"offset":0,"number":10,"totalResults":261}'
   recorded_at: Thu, 02 Nov 2023 14:19:21 GMT
+- request:
+    method: get
+    uri: https://api.spoonacular.com/recipes/complexSearch?apiKey=apiKey&query=pasta
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 02 Nov 2023 14:20:09 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1389'
+      Connection:
+      - keep-alive
+      Allow-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Authorization, UserId, Hash, Name, Password, Accept, Accept-Language, x-api-key,
+        Content-Language, Content-Type, Cache-Control, Origin, X-Requested-With
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      Allow-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      X-Api-Quota-Request:
+      - '1.1'
+      X-Api-Quota-Used:
+      - '49.72000000000003'
+      X-Api-Quota-Left:
+      - '1450.28'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jau2SgPPYPh2oVsc893RVsqw68RFjygUbKt%2FuYVDaiOJ9oRtoDUC1pL0zdwoln27tNHATQ8b%2FUgZKecBYenmCMIbq%2BqvPFOgSpAx7Fs0GSkf1%2FTF2Wewqv%2BtQbWJr019XkDhmpc%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 81fd043d5c4b5380-DEN
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"results":[{"id":654959,"title":"Pasta With Tuna","image":"https://spoonacular.com/recipeImages/654959-312x231.jpg","imageType":"jpg"},{"id":511728,"title":"Pasta
+        Margherita","image":"https://spoonacular.com/recipeImages/511728-312x231.jpg","imageType":"jpg"},{"id":654857,"title":"Pasta
+        On The Border","image":"https://spoonacular.com/recipeImages/654857-312x231.jpg","imageType":"jpg"},{"id":654883,"title":"Pasta
+        Vegetable Soup","image":"https://spoonacular.com/recipeImages/654883-312x231.jpg","imageType":"jpg"},{"id":654928,"title":"Pasta
+        With Italian Sausage","image":"https://spoonacular.com/recipeImages/654928-312x231.jpg","imageType":"jpg"},{"id":654926,"title":"Pasta
+        With Gorgonzola Sauce","image":"https://spoonacular.com/recipeImages/654926-312x231.jpg","imageType":"jpg"},{"id":654944,"title":"Pasta
+        With Salmon Cream Sauce","image":"https://spoonacular.com/recipeImages/654944-312x231.jpg","imageType":"jpg"},{"id":654905,"title":"Pasta
+        With Chickpeas and Kale","image":"https://spoonacular.com/recipeImages/654905-312x231.jpg","imageType":"jpg"},{"id":654901,"title":"Pasta
+        With Chicken and Broccoli","image":"https://spoonacular.com/recipeImages/654901-312x231.jpg","imageType":"jpg"},{"id":654913,"title":"Pasta
+        With Chicken and Mushrooms","image":"https://spoonacular.com/recipeImages/654913-312x231.jpg","imageType":"jpg"}],"offset":0,"number":10,"totalResults":261}'
+  recorded_at: Thu, 02 Nov 2023 14:20:09 GMT
+- request:
+    method: get
+    uri: https://api.spoonacular.com/recipes/complexSearch?apiKey=apiKey&query=pasta
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.11
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 02 Nov 2023 14:20:14 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1389'
+      Connection:
+      - keep-alive
+      Allow-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Headers:
+      - Authorization, UserId, Hash, Name, Password, Accept, Accept-Language, x-api-key,
+        Content-Language, Content-Type, Cache-Control, Origin, X-Requested-With
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      Allow-Control-Allow-Methods:
+      - GET, HEAD, POST, OPTIONS, DELETE, PUT
+      X-Api-Quota-Request:
+      - '1.1'
+      X-Api-Quota-Used:
+      - '55.13000000000003'
+      X-Api-Quota-Left:
+      - '1444.87'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wnxp8SavPkHUTvwLVNbS1O%2Bx23D%2BZK9C9JQF3gC0GAMIgkODVcNqEVpYO6AOSUOnRryP2Photon1kjRSn17jq0UL4j3%2BDz2F7DPfOLHywsf4H1wwSy%2FWSXUY85tKUVZHTkd7nsg%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 81fd045d5deb1f49-DEN
+      Alt-Svc:
+      - h3=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"results":[{"id":654959,"title":"Pasta With Tuna","image":"https://spoonacular.com/recipeImages/654959-312x231.jpg","imageType":"jpg"},{"id":511728,"title":"Pasta
+        Margherita","image":"https://spoonacular.com/recipeImages/511728-312x231.jpg","imageType":"jpg"},{"id":654857,"title":"Pasta
+        On The Border","image":"https://spoonacular.com/recipeImages/654857-312x231.jpg","imageType":"jpg"},{"id":654883,"title":"Pasta
+        Vegetable Soup","image":"https://spoonacular.com/recipeImages/654883-312x231.jpg","imageType":"jpg"},{"id":654928,"title":"Pasta
+        With Italian Sausage","image":"https://spoonacular.com/recipeImages/654928-312x231.jpg","imageType":"jpg"},{"id":654926,"title":"Pasta
+        With Gorgonzola Sauce","image":"https://spoonacular.com/recipeImages/654926-312x231.jpg","imageType":"jpg"},{"id":654944,"title":"Pasta
+        With Salmon Cream Sauce","image":"https://spoonacular.com/recipeImages/654944-312x231.jpg","imageType":"jpg"},{"id":654905,"title":"Pasta
+        With Chickpeas and Kale","image":"https://spoonacular.com/recipeImages/654905-312x231.jpg","imageType":"jpg"},{"id":654901,"title":"Pasta
+        With Chicken and Broccoli","image":"https://spoonacular.com/recipeImages/654901-312x231.jpg","imageType":"jpg"},{"id":654913,"title":"Pasta
+        With Chicken and Mushrooms","image":"https://spoonacular.com/recipeImages/654913-312x231.jpg","imageType":"jpg"}],"offset":0,"number":10,"totalResults":261}'
+  recorded_at: Thu, 02 Nov 2023 14:20:14 GMT
 recorded_with: VCR 6.2.0
