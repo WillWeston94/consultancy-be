@@ -35,5 +35,12 @@ module ConsultancyBe
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
+
+    config.middleware.use Rack::Cors do
+      allow do
+        origins 'https://consultancy-fe-b49461b80f89.herokuapp.com'
+        resource '*', headers: :any, methods: %i[get post put patch delete options head]
+      end
+    end
   end
 end
