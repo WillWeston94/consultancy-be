@@ -1,6 +1,6 @@
 class Api::V1::SearchController < ApplicationController
   def index
-    selected_recipes = RecipeFacade.new(params[:ingredients]).searched_recipes
+    selected_recipes = RecipeFacade.new(params[:q]).searched_recipes
     #I think we'll need to add a method at the end of line 3, once we get facades squared away
     #Possible refactor: I'm passing in the id in a weird way.
     render json: SearchedRecipeSerializer.new(selected_recipes)
