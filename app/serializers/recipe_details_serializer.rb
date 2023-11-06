@@ -1,4 +1,7 @@
 class RecipeDetailsSerializer
   include JSONAPI::Serializer
-  attributes :name
+  attributes  :name, 
+              :servings, 
+              :readyInMinutes,
+              :servingSize
 end

@@ -9,7 +9,6 @@ class Api::V1::SearchController < ApplicationController
 
   def show
     recipe_details = RecipeIdFacade.new.get_recipe_details(params[:id])
-    
     render json: RecipeDetailsSerializer.new(recipe_details)
   end
 
