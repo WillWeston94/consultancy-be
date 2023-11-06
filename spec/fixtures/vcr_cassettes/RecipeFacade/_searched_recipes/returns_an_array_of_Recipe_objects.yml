@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 06 Nov 2023 03:15:46 GMT
+      - Mon, 06 Nov 2023 20:57:50 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -40,19 +40,19 @@ http_interactions:
       X-Api-Quota-Request:
       - '2.0'
       X-Api-Quota-Used:
-      - '7.24'
+      - '203.0799999999998'
       X-Api-Quota-Left:
-      - '1492.76'
+      - '1296.92'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2V26soSjvi42bX5tO8bP82nve20F8fpU%2BOCf%2B6ZigEshxUytgfGfL5odbkGor7yeH2jebDOkDHTbhGPXHJu%2BLOYQtT5%2F7Iuw0Th85SShHbi5wZLWq1DDFASJKOdFKbMs9JhhElg%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=d7hRmRNojbmyoPwZF6%2F3S4WvO9ZZSzMt2Mqjj25CfwXxxRTYLaBRTxJTDGIFEAHYajw23aUV%2BssOry0cnJ8pRnIo%2F5v0Xb8131hNIg2LqkpsRPvae2oT5zaLRVzJimjnDbphW%2Bg%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 821a2c831fc95211-DEN
+      - 8220404769e2533b-DEN
       Alt-Svc:
       - h3=":443"; ma=86400
     body:
@@ -157,5 +157,5 @@ http_interactions:
         Raisin Apple Curry","image":"https://spoonacular.com/recipeImages/642673-312x231.jpg","imageType":"jpg"},{"id":655212,"title":"Peanut
         Butter and Apple Oatmeal Breakfast Bars","image":"https://spoonacular.com/recipeImages/655212-312x231.jpg","imageType":"jpg"},{"id":665040,"title":"Watermelon,
         Kiwi, Apple and Frozen Banana Smoothie","image":"https://spoonacular.com/recipeImages/665040-312x231.jpg","imageType":"jpg"}],"offset":0,"number":100,"totalResults":415}'
-  recorded_at: Mon, 06 Nov 2023 03:15:46 GMT
+  recorded_at: Mon, 06 Nov 2023 20:57:50 GMT
 recorded_with: VCR 6.2.0

@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 06 Nov 2023 03:15:50 GMT
+      - Mon, 06 Nov 2023 20:57:52 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -40,24 +40,24 @@ http_interactions:
       X-Api-Quota-Request:
       - '1.01'
       X-Api-Quota-Used:
-      - '12.25'
+      - '208.0899999999998'
       X-Api-Quota-Left:
-      - '1487.75'
+      - '1291.9100000000003'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ugm0kr6i3vByPpw3lbX5G46Qc4DbXPdEeaak9WzFDL7ncc86r2TGyuSVE975dkIAlX3UV37Qeimt2pSPJdkkkPsSBPjOYyUmhx1jpEj623KMIgXqJ1%2B%2B74h1XWNFbl8tSfds4S0%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yvK6N4mKMgSzXfUEgPIhPUgqhpnDIZxONWLpBRS7pNSZbDN%2F%2FkZ%2F88CINSwFyBmwaSltUZLiaf3gi8paM6yKmTEk%2BfxfCKlLQkH%2BCRnhEF3TEMmRBcMk%2BNtJBw3Rv06C0EGjNPk%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 821a2c99fd165207-DEN
+      - 82204052ec1d1f32-DEN
       Alt-Svc:
       - h3=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
       string: '{"results":[{"id":661251,"title":"Spinach Almond Amaranth Breakfast
         Muffins","image":"https://spoonacular.com/recipeImages/661251-312x231.jpg","imageType":"jpg"}],"offset":0,"number":100,"totalResults":1}'
-  recorded_at: Mon, 06 Nov 2023 03:15:50 GMT
+  recorded_at: Mon, 06 Nov 2023 20:57:52 GMT
 recorded_with: VCR 6.2.0
