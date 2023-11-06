@@ -3,7 +3,7 @@ class RecipeDetailsSerializer
   attributes  :name, 
               :servings, 
               :readyInMinutes,
-              :servingSize,
+              :servingSize_grams,
               :instructions,
               :ingredients
 end

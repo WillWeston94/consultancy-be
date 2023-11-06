@@ -3,7 +3,7 @@ class RecipeDetail
               :name, 
               :servings, 
               :readyInMinutes,
-              :servingSize,
+              :servingSize_grams,
               :instructions,
               :ingredients
 
@@ -12,15 +12,21 @@ class RecipeDetail
     @name = data[:title]
     @servings = data[:servings]
     @readyInMinutes = data[:readyInMinutes]
-    @servingSize = data[:nutrition][:weightPerServing][:amount]
-    @instructions = data[:instructions]
+    @servingSize_grams = data[:nutrition][:weightPerServing][:amount]
+    @instructions = parse_instructions(data)
     @ingredients = parse_ingredients(data)
     # require "pry" ; binding.pry
   end
 
   def parse_ingredients(data)
     data[:extendedIngredients].map do |ingredient|
-    {ingredient[:name] => ingredient[:original]}
+      ingredient[:original]
+    end
+  end
+
+  def parse_instructions(data)
+    data[:analyzedInstructions][0][:steps].map do |step|
+      { step[:number] => step[:step] }
     end
   end
 end
