@@ -21,4 +21,12 @@ describe RecipeService do
       end
     end
   end
+
+  it "displays 100 results when able", :vcr do
+    search = RecipeService.new.recipes_by_keyword("potato")
+
+    expect(search[:number]).to eq(100)
+  end
+
+
 end
