@@ -30,4 +30,34 @@ RSpec.describe "User Recipes Endpoint", type: :request do
       expect(attributes[:img_src]).to be_a String
     end
   end
+
+  it "allows the creation of a new UserRecipe via a post" do
+    user_id = 1
+    recipe_id = 213
+
+    post "/api/v1/user_recipes?user_id=#{user_id}&recipe_id=#{recipe_id}"
+
+    expect(response).to be_successful
+    expect(response.status).to eq(200)
+
+    user_recipe = UserRecipe.last
+    expect(user_recipe.user_id).to eq(user_id)
+    expect(user_recipe.recipe_id).to eq(recipe_id)
+  end
+
+  it "allows the deletion of a UserRecipe" do
+    user_id = 1
+    recipe_id = 213
+
+    post "/api/v1/user_recipes?user_id=#{user_id}&recipe_id=#{recipe_id}"
+
+    expect(UserRecipe.last).to be_a UserRecipe
+
+    delete "/api/v1/user_recipes?user_id=#{user_id}&recipe_id=#{recipe_id}"
+
+    expect(response).to be_successful
+    expect(response.status).to eq(200)
+
+    expect(UserRecipe.last).to be nil
+  end
 end
