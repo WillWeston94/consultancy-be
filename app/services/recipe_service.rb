@@ -18,4 +18,9 @@ class RecipeService
   def recipes_by_keyword_and_intolerances(keyword, intolerances)
     get_url("/recipes/complexSearch?query=#{keyword}&intolerances=#{intolerances}&number=100")
   end
+
+  def recipes_by_id(recipe_id)
+    get_url("/recipes/#{recipe_id}/information?includeNutrition=true")
+  end
+
 end
