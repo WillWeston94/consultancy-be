@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.spoonacular.com/recipes/complexSearch?apiKey=<spoonacular_api_key>&query=breakfast%20low%20fodmap%20spinach
+    uri: https://api.spoonacular.com/recipes/complexSearch?apiKey=<spoonacular_api_key>&number=100&query=breakfast%20low%20fodmap%20spinach
     body:
       encoding: US-ASCII
       string: ''
@@ -19,11 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 02 Nov 2023 16:17:40 GMT
+      - Mon, 06 Nov 2023 20:57:52 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '203'
+      - '204'
       Connection:
       - keep-alive
       Allow-Control-Allow-Origin:
@@ -40,24 +40,24 @@ http_interactions:
       X-Api-Quota-Request:
       - '1.01'
       X-Api-Quota-Used:
-      - '100.51999999999992'
+      - '208.0899999999998'
       X-Api-Quota-Left:
-      - '1399.48'
+      - '1291.9100000000003'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pkmdlBwJABF4EZG%2BBQQLjgtHOVoLb1wAzh0Lilw4NqUBvY9zVqEO34AsjuVjNJ%2BUYGRB5BkVs8mXDpPpLTY8tU%2FVvhYwI7jDu96vHWCMzyss6txM4%2FHeVFjqohqIv20PI%2BHCvA8%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yvK6N4mKMgSzXfUEgPIhPUgqhpnDIZxONWLpBRS7pNSZbDN%2F%2FkZ%2F88CINSwFyBmwaSltUZLiaf3gi8paM6yKmTEk%2BfxfCKlLQkH%2BCRnhEF3TEMmRBcMk%2BNtJBw3Rv06C0EGjNPk%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 81fdb0636dfa4778-DFW
+      - 82204052ec1d1f32-DEN
       Alt-Svc:
       - h3=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
       string: '{"results":[{"id":661251,"title":"Spinach Almond Amaranth Breakfast
-        Muffins","image":"https://spoonacular.com/recipeImages/661251-312x231.jpg","imageType":"jpg"}],"offset":0,"number":10,"totalResults":1}'
-  recorded_at: Thu, 02 Nov 2023 16:17:40 GMT
+        Muffins","image":"https://spoonacular.com/recipeImages/661251-312x231.jpg","imageType":"jpg"}],"offset":0,"number":100,"totalResults":1}'
+  recorded_at: Mon, 06 Nov 2023 20:57:52 GMT
 recorded_with: VCR 6.2.0
