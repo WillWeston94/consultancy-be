@@ -1,14 +1,6 @@
 class Api::V1::UserRecipesController < ApplicationController
   def index
-    recipe_ids = UserRecipe.select(:recipe_id).where("user_id = ?", params[:user_id]).pluck(:recipe_id)
-
-    recipes = []
-
-    recipe_ids.each do |id|
-      data = RecipeService.new.recipes_by_id(id)
-      recipes << SearchedRecipe.new(data)
-    end
-
+    recipes = UserRecipesFacade.new(params[:user_id]).fetch_user_recipes
     render json: SearchedRecipeSerializer.new(recipes)
   end
 end
