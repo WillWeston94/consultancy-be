@@ -60,4 +60,10 @@ RSpec.describe "User Recipes Endpoint", type: :request do
 
     expect(UserRecipe.last).to be nil
   end
+
+  describe "sad paths" do
+    xit "cannot add the same recipe twice" do
+      #todo
+    end
+  end
 end
