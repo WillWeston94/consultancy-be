@@ -1,7 +1,7 @@
 class RecipeDetail
   attr_reader :id, 
               :name,
-              :image,
+              :img_src,
               :servings, 
               :readyInMinutes,
               :servingSize_grams,
@@ -11,7 +11,7 @@ class RecipeDetail
   def initialize(data)
     @id = data[:id]
     @name = data[:title]
-    @image = data[:image]
+    @img_src = data[:image]
     @servings = data[:servings]
     @readyInMinutes = data[:readyInMinutes]
     @servingSize_grams = data[:nutrition][:weightPerServing][:amount]
