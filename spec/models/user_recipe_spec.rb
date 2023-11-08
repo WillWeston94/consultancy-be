@@ -18,7 +18,7 @@ RSpec.describe UserRecipe, type: :model do
         UserRecipe.create!(user_id: user_id, recipe_id: recipe2_id)
         UserRecipe.create!(user_id: user_id, recipe_id: recipe3_id)
 
-        expect(UserRecipe.all_recipes_by_user(user_id)).to include([recipe1_id, recipe2_id, recipe3_id])
+        expect(UserRecipe.all_recipes_by_user(user_id)).to include(recipe1_id, recipe2_id, recipe3_id)
         expect(UserRecipe.all_recipes_by_user(user_id)).to_not include(recipe4_id)
       end
     end
