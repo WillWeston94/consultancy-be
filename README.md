@@ -1,7 +1,9 @@
 # KindKitchen - Project README
 # Back-End
 
-Link to [Kind Kitchen Webiste](https://consultancy-fe-b49461b80f89.herokuapp.com/)
+Link to [Kind Kitchen Website](https://consultancy-fe-b49461b80f89.herokuapp.com/)<br>
+Link to [Spoonacular API](https://spoonacular.com/food-api/docs)<br>
+Link to [Front End Service](https://github.com/WillWeston94/consultancy-fe)
 
 ## Setup
 
@@ -35,6 +37,17 @@ This project has been deployed using [Heroku](https://id.heroku.com/login), and 
     t.integer "recipe_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+ create_table "recipe_models", force: :cascade do |t|
+    t.string "title"
+    t.string "servings"
+    t.string "prep_time"
+    t.text "ingredients"
+    t.text "instructions"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "image_url"
   end
   ```
 
