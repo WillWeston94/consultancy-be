@@ -1,11 +1,11 @@
 class Api::V1::RecipeModelsController < ApplicationController
   def create
-    binding.pry
+    # binding.pry
     @recipe = RecipeModel.new(recipe_params)
   
     if @recipe.save
-      @recipe.image.attach(params[:recipe][:image])
-  
+      @recipe.image.attach(params[:image])
+      # binding.pry
       serialized_recipe = RecipeDetailsSerializer.new(@recipe).serializable_hash
   
       render json: serialized_recipe, status: :created
@@ -18,6 +18,6 @@ class Api::V1::RecipeModelsController < ApplicationController
   private
 
   def recipe_params
-    params.require(:recipe).permit(:title, :image, :servings, :prep_time, :ingredients, :instructions, :user_id)
+    params.require(:recipe).permit(:title, :image, :servings, :prep_time, :ingredients, :instructions)
   end
 end
